@@ -1,0 +1,29 @@
+﻿@using GridMvc.Html
+
+<h2>Cadastro de CPA</h2>
+
+@Html.ActionLink("Cadastrar","Cadastro","Cpa","",new {@class="btn btn-primary"})
+
+@Html.Grid(new FESVIP.CPA.DATA.classes.business.CpaBO().TodasCPAs()).Columns(c=>
+{
+    c.Add(a => a.DataInicio).Titled("Início das avaliações").Format("{0:dd/MM/yyyy}");
+    c.Add(a => a.DataFim).Titled("Fim das avalicações").Format("{0:dd/MM/yyyy}");
+    c.Add(a => a.FK_PeriodoLetivo.Descricao).Titled("Período");
+    c.Add().Encoded(false).Sanitized(false).RenderValueAs(d => Ativo(d.Ativo)).Titled("Ativa");
+    c.Add().Encoded(false).Sanitized(false).RenderValueAs(d => @Html.ActionLink(" ", "EditarCpa", new { codigoCpa = d.Codigo }, new { @class = "glyphicon glyphicon-pencil" })).Titled("Editar");
+    c.Add().Encoded(false).Sanitized(false).RenderValueAs(d => @Html.ActionLink(" ", "ExcluirCpa", new { codigoCpa = d.Codigo }, new { @class = "glyphicon glyphicon-trash", @onclick = "return Confirm('Deseja realmente excluir esta CPA?');" })).Titled("Excluir");
+    
+}).EmptyText("Nenhuma cpa cadastrada")
+
+
+@helper Ativo(Boolean ativo){
+    
+    if(ativo)
+    {
+    <span class="label label-success" >sim</span>   
+    }else
+    {
+        <span class="label label-danger" >não</span>   
+    }
+    
+}

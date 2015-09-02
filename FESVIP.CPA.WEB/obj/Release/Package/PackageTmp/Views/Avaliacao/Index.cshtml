@@ -1,0 +1,41 @@
+﻿@using GridMvc.Html
+@{Layout = "";}
+
+<link href="~/Content/css/bootstrap.min.css" rel="stylesheet" />
+
+
+@Html.Partial("_PartialMensagemJS")
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-lg-4">
+            <br />
+            <img src="~/Content/images/logo_fesvip.png" />
+        </div>
+
+        <div class="col-lg-6">
+
+            <h1>Avaliações Institucionais</h1>
+        </div>
+
+
+
+    </div>
+    
+    
+<h2>Formulários de Avaliação</h2>
+<p>Formulários de avaliação disponíveis.</p>
+
+
+
+@Html.Grid(new FESVIP.CPA.DATA.classes.business.FormularioBO().FormulariosDeCpasAtivas()).Columns(col => 
+{
+    col.Add(f => f.FK_Cpa.Descricao).Titled("");
+    col.Add(f => f.Nome).Titled(""); 
+    col.Add(f => f.FK_TipoFormulario.Descricao).Titled("");
+    col.Add().Encoded(false).Sanitized(false).RenderValueAs(f => @Html.ActionLink("responder avaliação","MontarQuestionario","Formulario", new{registroFormulario = f.Codigo},""));   
+    
+})
+
+</div>

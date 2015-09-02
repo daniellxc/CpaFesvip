@@ -1,0 +1,19 @@
+﻿@using GridMvc.Html
+@{
+    
+}
+
+<h2>Banco de questões</h2>
+<p>Questões disponíveis para criação dos formulários de avaliação.</p>
+
+@Html.ActionLink("Cadastrar","CadastroQuestao","Questao","",new{@class="btn btn-primary"})
+
+@Html.Grid(new FESVIP.CPA.DATA.classes.business.QuestaoBO().TodaQuestoes()).Columns(col=>
+{
+    col.Add(c => c.Enredo).Titled("Questão").Filterable(true);
+    col.Add(c => c.FK_CategoriaQuestao.Descricao).Titled("Categoria").Sortable(true);
+    col.Add().Encoded(false).Sanitized(false).RenderValueAs(d => @Html.ActionLink(" ", "EditarQuestao", new { codigoQuestao = d.Codigo }, new { @class = "glyphicon glyphicon-pencil" })).Titled("Editar");
+    col.Add().Encoded(false).Sanitized(false).RenderValueAs(d => @Html.ActionLink(" ", "ExcluirQuestao", new { codigoQuestao = d.Codigo }, new { @class = "glyphicon glyphicon-trash", @onclick = "return Confirm('Deseja realmente excluir esta quesão?');" })).Titled("Excluir");
+    
+}).EmptyText("Nenhuma questão cadastrada até momento.")
+

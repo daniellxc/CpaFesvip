@@ -1,0 +1,7 @@
+﻿@using GridMvc.Html
+
+@Html.Grid(new FESVIP.CPA.DATA.classes.business.QuestaoBO().TodaQuestoes()).Columns(col=>
+{
+    col.Add(c => c.Enredo).Titled("Questão");
+    col.Add(c => c.FK_CategoriaQuestao.Descricao).Titled("Categoria");
+})

@@ -1,0 +1,40 @@
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.DATA\bin\Debug\FESVIP.CPA.DATA.dll.config
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.DATA\bin\Debug\FESVIP.CPA.DATA.dll
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.DATA\bin\Debug\FESVIP.CPA.DATA.pdb
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.DATA\bin\Debug\EntityFramework.dll
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.DATA\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.DATA\bin\Debug\EntityFramework.xml
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.DATA\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.DATA\obj\Debug\FESVIP.CPA.DATA.Properties.Resources.resources
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.DATA\obj\Debug\FESVIP.CPA.DATA.csproj.GenerateResource.Cache
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.DATA\obj\Debug\FESVIP.CPA.DATA.dll
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.DATA\obj\Debug\FESVIP.CPA.DATA.pdb
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.DATA\bin\Debug\Mono.Security.dll
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.DATA\bin\Debug\Npgsql.dll
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.DATA\bin\Debug\Npgsql.xml
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.DATA\bin\Debug\de\Npgsql.resources.dll
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.DATA\bin\Debug\es\Npgsql.resources.dll
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.DATA\bin\Debug\fi\Npgsql.resources.dll
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.DATA\bin\Debug\fr\Npgsql.resources.dll
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.DATA\bin\Debug\ja\Npgsql.resources.dll
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.DATA\bin\Debug\zh-CN\Npgsql.resources.dll
+C:\Users\Daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.DATA\obj\Debug\FESVIP.CPA.DATA.csprojResolveAssemblyReference.cache
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.DATA\bin\Debug\FESVIP.CPA.DATA.dll.config
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.DATA\bin\Debug\FESVIP.CPA.DATA.dll
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.DATA\bin\Debug\FESVIP.CPA.DATA.pdb
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.DATA\bin\Debug\EntityFramework.dll
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.DATA\bin\Debug\EntityFramework.SqlServer.dll
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.DATA\bin\Debug\Npgsql.dll
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.DATA\bin\Debug\EntityFramework.xml
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.DATA\bin\Debug\EntityFramework.SqlServer.xml
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.DATA\bin\Debug\Npgsql.xml
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.DATA\bin\Debug\de\Npgsql.resources.dll
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.DATA\bin\Debug\es\Npgsql.resources.dll
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.DATA\bin\Debug\fi\Npgsql.resources.dll
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.DATA\bin\Debug\fr\Npgsql.resources.dll
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.DATA\bin\Debug\ja\Npgsql.resources.dll
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.DATA\bin\Debug\zh-CN\Npgsql.resources.dll
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.DATA\obj\Debug\FESVIP.CPA.DATA.Properties.Resources.resources
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.DATA\obj\Debug\FESVIP.CPA.DATA.csproj.GenerateResource.Cache
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.DATA\obj\Debug\FESVIP.CPA.DATA.dll
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.DATA\obj\Debug\FESVIP.CPA.DATA.pdb

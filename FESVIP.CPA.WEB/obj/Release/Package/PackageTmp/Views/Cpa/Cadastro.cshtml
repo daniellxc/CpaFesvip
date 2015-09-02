@@ -1,0 +1,45 @@
+﻿@model FESVIP.CPA.DATA.classes.entidades.Cpa
+
+@{
+    SelectList periodos = new SelectList(new FESVIP.CPA.DATA.classes.business.PeriodoLetivoBO().TodosPeriodosLetivos().Where(p=>p.Fechado == false).ToList(),"Codigo","Descricao");
+}
+<script src="~/Content/js/BaseScript.js"></script>
+<h2>Cadastro de CPA</h2>
+
+
+@using (Html.BeginForm("CadastrarCpa", "cpa"))
+{
+     <div class="form-group">
+        @Html.Label("Descrição")<br />
+        @Html.EditorFor(c=>c.Descricao,new{@class="form-editor"})
+       
+    </div>
+    <div class="form-group">
+        @Html.Label("Data Incício")<br />
+        @Html.EditorFor(c=>c.DataInicio,new{@class="form-editor"})
+        @Html.ValidationMessageFor(c=>c.DataInicio)
+    </div>
+    <div class="form-group">
+        @Html.Label("Data Fim")<br />
+        @Html.EditorFor(c=>c.DataFim,new{@class="form-editor"})
+        @Html.ValidationMessageFor(c=>c.DataFim)
+    </div>
+      <div class="form-group">
+        @Html.Label("Período referente")
+        @Html.DropDownListFor(c=>c.PERIODO_LETIVO,periodos,"---",new{@class="form-control"})
+        @Html.ValidationMessageFor(c=>c.PERIODO_LETIVO)
+    </div>
+       <div class="form-group">
+        @Html.Label("Ativo")<br />
+        @Html.EditorFor(c=>c.Ativo,new{@class="form-editor"})
+        @Html.ValidationMessageFor(c=>c.Ativo)
+    </div>
+    
+    if (Model!= null && Model.Codigo != 0)
+    {
+        @Html.HiddenFor(c=>c.Codigo)
+    }
+    
+    <input type="submit" value="Confirmar" class="btn btn-success"  />
+    @Html.ActionLink("Voltar","Index","Cpa","",new{@class="btn btn-success"})
+}

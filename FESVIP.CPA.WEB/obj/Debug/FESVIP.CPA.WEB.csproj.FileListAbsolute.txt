@@ -1,0 +1,89 @@
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\bin\FESVIP.CPA.WEB.dll
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\bin\FESVIP.CPA.WEB.pdb
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\bin\EntityFramework.dll
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\bin\EntityFramework.SqlServer.dll
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\bin\FESVIP.CPA.DATA.dll
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\bin\Microsoft.Web.Infrastructure.dll
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\bin\Newtonsoft.Json.dll
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\bin\System.Net.Http.Formatting.dll
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\bin\System.Web.Helpers.dll
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\bin\System.Web.Http.dll
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\bin\System.Web.Http.WebHost.dll
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\bin\System.Web.Mvc.dll
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\bin\System.Web.Razor.dll
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\bin\System.Web.WebPages.Deployment.dll
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\bin\System.Web.WebPages.dll
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\bin\System.Web.WebPages.Razor.dll
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\bin\FESVIP.CPA.DATA.pdb
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\bin\EntityFramework.xml
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\bin\EntityFramework.SqlServer.xml
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\bin\Newtonsoft.Json.xml
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\bin\System.Net.Http.Formatting.xml
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\bin\System.Web.Helpers.xml
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\bin\System.Web.Http.xml
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\bin\System.Web.Http.WebHost.xml
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\bin\System.Web.Mvc.xml
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\bin\System.Web.Razor.xml
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\bin\System.Web.WebPages.xml
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\bin\System.Web.WebPages.Deployment.xml
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\bin\System.Web.WebPages.Razor.xml
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\obj\Debug\FESVIP.CPA.WEB.csprojResolveAssemblyReference.cache
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\obj\Debug\FESVIP.CPA.WEB.dll
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\obj\Debug\FESVIP.CPA.WEB.pdb
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\bin\Mono.Security.dll
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\bin\Npgsql.dll
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\bin\Npgsql.xml
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\bin\de\Npgsql.resources.dll
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\bin\es\Npgsql.resources.dll
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\bin\fi\Npgsql.resources.dll
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\bin\fr\Npgsql.resources.dll
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\bin\ja\Npgsql.resources.dll
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\bin\zh-CN\Npgsql.resources.dll
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\bin\Npgsql.EntityFramework.dll
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\bin\Npgsql.EntityFramework.xml
+C:\Users\Daniel_2\Documents\Visual Studio 2012\Projects\FESVIP.CPA\FESVIP.CPA.WEB\bin\GridMvc.dll
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\bin\FESVIP.CPA.WEB.dll.config
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\bin\FESVIP.CPA.WEB.dll
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\bin\FESVIP.CPA.WEB.pdb
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\bin\EntityFramework.dll
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\bin\EntityFramework.SqlServer.dll
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\bin\FESVIP.CPA.DATA.dll
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\bin\GridMvc.dll
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\bin\Microsoft.Web.Infrastructure.dll
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\bin\Newtonsoft.Json.dll
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\bin\Npgsql.dll
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\bin\Npgsql.EntityFramework.dll
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\bin\System.Net.Http.Formatting.dll
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\bin\System.Web.Helpers.dll
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\bin\System.Web.Http.dll
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\bin\System.Web.Http.WebHost.dll
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\bin\System.Web.Mvc.dll
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\bin\System.Web.Razor.dll
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\bin\System.Web.WebPages.Deployment.dll
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\bin\System.Web.WebPages.dll
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\bin\System.Web.WebPages.Razor.dll
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\bin\FESVIP.CPA.DATA.pdb
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\bin\EntityFramework.xml
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\bin\EntityFramework.SqlServer.xml
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\bin\Npgsql.xml
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\bin\Npgsql.EntityFramework.xml
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\bin\Newtonsoft.Json.xml
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\bin\System.Net.Http.Formatting.xml
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\bin\System.Web.Helpers.xml
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\bin\System.Web.Http.xml
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\bin\System.Web.Http.WebHost.xml
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\bin\System.Web.Mvc.xml
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\bin\System.Web.Razor.xml
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\bin\System.Web.WebPages.xml
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\bin\System.Web.WebPages.Deployment.xml
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\bin\System.Web.WebPages.Razor.xml
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\bin\de\Npgsql.resources.dll
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\bin\es\Npgsql.resources.dll
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\bin\fi\Npgsql.resources.dll
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\bin\fr\Npgsql.resources.dll
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\bin\ja\Npgsql.resources.dll
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\bin\zh-CN\Npgsql.resources.dll
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\obj\Debug\FESVIP.CPA.WEB.csprojResolveAssemblyReference.cache
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\obj\Debug\FESVIP.CPA.WEB.dll
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\obj\Debug\FESVIP.CPA.WEB.pdb
+G:\SHARED\cpa_fesvip\FESVIP.CPA\FESVIP.CPA.WEB\bin\Mono.Security.dll

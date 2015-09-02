@@ -1,0 +1,46 @@
+﻿@model FESVIP.CPA.DATA.classes.entidades.Formulario
+@{
+    SelectList cpas = new SelectList(new FESVIP.CPA.DATA.classes.business.CpaBO().TodasCPAs().Where(c => c.Ativo).ToList(), "Codigo", "Descricao");
+    SelectList tiposFormulario = new SelectList(new FESVIP.CPA.DATA.classes.business.TipoFormularioBO().TodosTiposFormularios(), "Codigo", "Nome");
+}
+
+<h2>Cadastro de Formulário</h2>
+
+
+
+<textarea name="area1"></textarea>
+
+@using (Html.BeginForm("CadastrarFormulario", "Formulario"))
+{
+    <div class="form-group">
+        @Html.Label("Identificação do formulário")
+        @Html.TextBoxFor(f => f.Nome, new {@class="form-control" })
+        @Html.ValidationMessageFor(f => f.Nome)
+    </div>
+    
+      <div class="form-group">
+        @Html.Label("CPA")
+        @Html.DropDownListFor(f => f.CPA,cpas,"---" ,new {@class="form-control" })
+        @Html.ValidationMessageFor(f => f.CPA)
+    </div>
+    <div class="form-group">
+        @Html.Label("Tipo")
+        @Html.DropDownListFor(f => f.TIPO_FORMULARIO,tiposFormulario,"---" ,new {@class="form-control" })
+        @Html.ValidationMessageFor(f => f.TIPO_FORMULARIO)
+    </div>
+        <div class="form-group">
+        @Html.Label("Instruções")
+        @Html.TextAreaFor(f => f.Instrucao, new {@class="form-control" })
+ 
+    </div>
+
+    
+    if (Model != null)
+    {
+        @Html.HiddenFor(f => f.Codigo);
+    }
+    
+    <input type="submit" value="Confirmar" class="btn btn-success" />
+    @Html.ActionLink("Voltar","Index","Formulario","",new {@class="btn btn-success"})
+
+}

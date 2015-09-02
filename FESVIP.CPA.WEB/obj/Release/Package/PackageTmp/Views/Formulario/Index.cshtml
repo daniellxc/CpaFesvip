@@ -1,0 +1,20 @@
+﻿@using GridMvc.Html
+
+
+
+<h2>Formulários de avalição</h2>
+<p>Criação e configuração dos formulários de avaliação.</p>
+
+@Html.ActionLink("Cadastrar","CadastroFormulario","Formulario","",new{@class="btn btn-primary"})
+
+@Html.Grid(new FESVIP.CPA.DATA.classes.business.FormularioBO().TodosFormularios()).Columns(col=>
+{
+    col.Add(c => c.Nome).Titled("Formulário").Filterable(true);
+    col.Add(c => c.FK_TipoFormulario.Descricao).Titled("Tipo").Sortable(true);
+    col.Add(c => c.FK_Cpa.Descricao).Titled("CPA").Sortable(true);
+    col.Add().Encoded(false).Sanitized(false).RenderValueAs(d => @Html.ActionLink("escolher questões","GerenciarQuestoes","Formulario",new{codigoFormulario=d.Codigo},""));
+    col.Add().Encoded(false).Sanitized(false).RenderValueAs(d => @Html.ActionLink(" ", "EditarFormulario", new { codigoFormulario = d.Codigo }, new { @class = "glyphicon glyphicon-pencil" })).Titled("Editar");
+    col.Add().Encoded(false).Sanitized(false).RenderValueAs(d => @Html.ActionLink(" ", "ExcluirFormulario", new { codigoFormulario = d.Codigo }, new { @class = "glyphicon glyphicon-trash", @onclick = "return Confirm('Deseja realmente excluir este formulário?');" })).Titled("Excluir");
+    
+}
+).EmptyText("Nenhum formulário cadastrado até momento.")

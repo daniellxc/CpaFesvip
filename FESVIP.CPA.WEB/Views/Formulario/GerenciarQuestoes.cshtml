@@ -1,0 +1,48 @@
+﻿@model FESVIP.CPA.DATA.classes.entidades.Formulario
+@using GridMvc.Html
+<script src="~/Content/js/jquery.min.js"></script>
+<script src="~/Scripts/gridmvc.min.js"></script>
+<link href="~/Content/Gridmvc.css" rel="stylesheet" />
+<h2>Configurar questões do formulário</h2>
+<p>Escolha as questões que irão compor o formulário de avaliação atual.</p>
+
+<div class="row">
+    <div class="col-lg-3">
+        @Html.Label("Formulário:" + Model.Nome)
+         @Html.Label(Model.FK_TipoFormulario.Descricao, new {@class="text text-primary" })
+    </div>
+</div>
+<hr />
+<div class="row">
+
+    @*COL ESQUERDA*@
+    <div class="col-lg-6">
+         <label>Questões disponíveis</label>
+
+        @Html.Grid(new FESVIP.CPA.DATA.classes.business.QuestaoBO().TodaQuestoes()).Columns(col=>
+        {
+        col.Add(c => c.Enredo,"colQuestao").Titled("Questão").Filterable(true);
+        col.Add(c => c.FK_CategoriaQuestao.Descricao).Titled("Categoria").Filterable(true);
+        col.Add().Encoded(false).Sanitized(false).RenderValueAs(c => @Html.ActionLink("selecionar", "AddQuestaoFormulario", new { codigoQuestao = c.Codigo, codigoFormulario = Model.Codigo }));
+        }).EmptyText("Nenhuma questão cadastrada").Named("QuestoesDisponiveis")
+
+
+         @Html.ActionLink("Voltar", "Index", "Formulario", "", new { @class = "btn btn-primary" })
+    </div>
+   
+
+    @*COL DIREITA*@
+     <div class="col-lg-6">
+        <label>Questões selecionadas</label>
+
+        @Html.Grid(new FESVIP.CPA.DATA.classes.business.QuestaoBO().QuestoesDoFormulario(Model.Codigo)).Columns(col=>
+        {
+        col.Add(c => c.Enredo).Titled("Questão");
+        col.Add(c => c.FK_CategoriaQuestao.Descricao).Titled("Categoria");
+        col.Add().Encoded(false).Sanitized(false).RenderValueAs(c => @Html.ActionLink(" ", "RemoverQuestaoFormulario", new { codigoQuestao = c.Codigo, codigoFormulario = Model.Codigo }, new { @class = "glyphicon glyphicon-trash", @onclick = "return Confirm('Remover questão do formulário?');" }));
+        }).EmptyText("Sem questões para este formulário.")
+
+    </div>
+
+   
+</div>

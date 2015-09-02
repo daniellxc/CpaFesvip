@@ -1,0 +1,12 @@
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\Teste\bin\Debug\Teste.exe.config
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\Teste\bin\Debug\Teste.exe
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\Teste\bin\Debug\Teste.pdb
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\Teste\bin\Debug\EntityFramework.dll
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\Teste\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\Teste\bin\Debug\FESVIP.CPA.DATA.dll
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\Teste\bin\Debug\FESVIP.CPA.DATA.pdb
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\Teste\bin\Debug\EntityFramework.xml
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\Teste\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\Teste\obj\Debug\Teste.csprojResolveAssemblyReference.cache
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\Teste\obj\Debug\Teste.exe
+c:\users\daniel_2\documents\visual studio 2012\Projects\FESVIP.CPA\Teste\obj\Debug\Teste.pdb

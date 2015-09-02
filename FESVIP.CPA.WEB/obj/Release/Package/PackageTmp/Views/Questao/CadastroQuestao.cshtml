@@ -1,0 +1,30 @@
+﻿@model FESVIP.CPA.DATA.classes.entidades.Questao
+@{
+    SelectList categorias = new SelectList(new FESVIP.CPA.DATA.classes.business.CategoriaQuestaoBO().TodasCategoriasQuestao(),"Codigo","Descricao");
+    
+}
+<script src="~/Content/js/bootstrap.min.js"></script>
+<h2>Cadastro de questão</h2>
+
+@using (Html.BeginForm("CadastrarQuestao", "Questao"))
+{
+    <div class="form-group">
+    @Html.Label("Enredo da questão")
+    @Html.TextAreaFor(q => q.Enredo, new {@class="form-control" })
+    @Html.ValidationMessageFor(q => q.Enredo)
+    </div>
+   <div class="form-group">
+    @Html.Label("Categoria")
+    @Html.DropDownListFor(q => q.CATEGORIA_QUESTAO,categorias,"---",new {@class="form-control" })
+    @Html.ValidationMessageFor(q => q.CATEGORIA_QUESTAO)
+   </div>
+    
+    if (Model != null)
+    {
+        @Html.HiddenFor(q=>q.Codigo)
+    }
+    
+    <input type="submit" value="Confirmar" class="btn btn-success" />
+    @Html.ActionLink("Voltar","Index","Questao","",new{@class="btn btn-success"})
+
+}
