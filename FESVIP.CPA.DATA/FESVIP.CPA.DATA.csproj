@@ -53,7 +53,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="classes\AbstractDao.cs" />
+    <Compile Include="classes\AbstractMembershipDAO.cs" />
     <Compile Include="classes\acessorio\Exceptions.cs" />
+    <Compile Include="classes\business\AcademicoMembership_UsersBO.cs" />
     <Compile Include="classes\business\AvaliacaoBO.cs" />
     <Compile Include="classes\business\CategoriaQuestaoBO.cs" />
     <Compile Include="classes\business\CpaBO.cs" />
@@ -64,6 +66,8 @@
     <Compile Include="classes\business\QuestaoBO.cs" />
     <Compile Include="classes\business\TipoFormularioBO.cs" />
     <Compile Include="classes\Context.cs" />
+    <Compile Include="classes\ContextMembership.cs" />
+    <Compile Include="classes\entidades\AcademicoMembership_Users.cs" />
     <Compile Include="classes\entidades\AlocacaoDisciplina.cs" />
     <Compile Include="classes\entidades\Avaliacao.cs" />
     <Compile Include="classes\entidades\CategoriaQuestao.cs" />

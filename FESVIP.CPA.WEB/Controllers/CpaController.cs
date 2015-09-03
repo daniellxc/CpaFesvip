@@ -8,6 +8,7 @@ using System.Web.Mvc;
 
 namespace FESVIP.CPA.WEB.Controllers
 {
+    [Authorize]
     public class CpaController : Controller
     {
         private CpaBO DAO = new CpaBO();

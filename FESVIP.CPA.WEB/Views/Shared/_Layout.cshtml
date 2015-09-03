@@ -40,6 +40,7 @@
           </button>
           <a class="navbar-brand" href="http://getbootstrap.com/examples/starter-template/#"></a>
         </div>
+    @if (User.Identity.IsAuthenticated) {
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
              <li>@Html.ActionLink("Início","Index","Home")</li>
@@ -58,9 +59,10 @@
               </ul>
         </li>
             
-            <li><a href="http://www.google.com">Sair</a></li>
+            <li>@Html.ActionLink("Sair", "Logout", "Login", "", new { @onclick = "return Confirm('Clique em OK para sair da aplicação.')" })</li>
           </ul>
         </div><!--/.nav-collapse -->
+    }
       </div>
     </nav>
     <div class="container">

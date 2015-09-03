@@ -9,17 +9,18 @@ using System.Web.Mvc;
 
 namespace FESVIP.CPA.WEB.Controllers
 {
+   
     public class FormularioController : Controller
     {
         //
         // GET: /Formulario/
         FormularioBO DAO = new FormularioBO();
-
+         [Authorize]
         public ActionResult Index()
         {
             return View();
         }
-
+         [Authorize]
         public ActionResult CadastroFormulario()
         {
             return View();
@@ -40,6 +41,7 @@ namespace FESVIP.CPA.WEB.Controllers
             }
         }
 
+         [Authorize]
         public ActionResult CadastrarFormulario(Formulario formulario)
         {
             if (!ModelState.IsValid) return View("CadastroFormulario", formulario);
@@ -55,12 +57,12 @@ namespace FESVIP.CPA.WEB.Controllers
                 return View("CadastroFormulario", formulario).ComMensagemDeErro(ex.Message);
             }
         }
-
+         [Authorize]
         public ActionResult EditarFormulario(int codigoFormulario)
         {
             return View("CadastroFormulario", DAO.GetFormulario(codigoFormulario));
         }
-
+         [Authorize]
         public ActionResult ExcluirFormulario(int codigoFormulario)
         {
             try
@@ -74,12 +76,12 @@ namespace FESVIP.CPA.WEB.Controllers
                 return View("Index").ComMensagemDeErro(ex.Message);
             }
         }
-
+         [Authorize]
         public ActionResult GerenciarQuestoes(int codigoFormulario)
         {
             return View(DAO.GetFormulario(codigoFormulario));
         }
-
+         [Authorize]
         public ActionResult AddQuestaoFormulario(int codigoQuestao, int codigoFormulario)
         {
             try
@@ -92,7 +94,7 @@ namespace FESVIP.CPA.WEB.Controllers
                 return View("GerenciarQuestoes", DAO.GetFormulario(codigoFormulario)).ComMensagemDeErro(ex.Message);
             }
         }
-
+         [Authorize]
         public ActionResult RemoverQuestaoFormulario(int codigoQuestao, int codigoFormulario)
         {
             try

@@ -127,6 +127,7 @@
     <Compile Include="Acessorio\ActionResultExtensions.cs" />
     <Compile Include="Controllers\AvaliacaoController.cs" />
     <Compile Include="Controllers\FormularioController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\QuestaoController.cs" />
     <Compile Include="Acessorio\TempDataActionResult.cs" />
     <Compile Include="Controllers\CpaController.cs" />
@@ -235,6 +236,7 @@
     <Content Include="Scripts\datatables.min.js" />
     <Content Include="Views\Avaliacao\PreStage.cshtml" />
     <None Include="Properties\PublishProfiles\Publicacao.pubxml" />
+    <Content Include="Views\Login\Login.cshtml" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>

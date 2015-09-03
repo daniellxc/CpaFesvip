@@ -9,6 +9,7 @@ using System.Web.Mvc;
 
 namespace FESVIP.CPA.WEB.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
         //
@@ -16,8 +17,11 @@ namespace FESVIP.CPA.WEB.Controllers
 
         public ActionResult Index()
         {
-            int periodos = new CursoBO().QuantidadePeriodo(1);
-           // List<Professor> profs = new ProfessorBO().PegarProfessoresDoPeriodo(1, 22,1);
+          //1513112379
+          //26041968
+
+            AcademicoMembership_Users u = new AcademicoMembership_UsersBO().GetUser("131315770", "1234");
+
             return View();
         }
 
